@@ -36,17 +36,22 @@
             box-sizing: border-box;
             width: 100%;
         }
-        /* Recuadro negro detrás del logo */
+        /* Círculo negro detrás del logo */
         .logo {
             background: #000;
-            border-radius: 10px;
-            padding: 8px;
+            border-radius: 50%;
+            width: 100%;
+            max-width: 280px;
+            aspect-ratio: 1 / 1;
             margin: 0 auto 24px;
-            max-width: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 18px rgba(0, 0, 0, 0.45);
         }
         .logo img {
             display: block;
-            width: 100%;
+            width: 90%;
             height: auto;
         }
         p {
